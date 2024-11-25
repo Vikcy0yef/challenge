@@ -1,0 +1,67 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: #434455;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.qr-section {
+  width: 320px;
+  margin: 0 auto;
+  padding: 158px 0;
+}
+.qr-container {
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 288px;
+  padding: 16px 16px 44px 16px;
+}
+
+.qr-card {
+  border-radius: 20px;
+}
+
+.qr-img {
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.qr-text {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.qr-heading {
+  font-size: 22px;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 25px;
+}
+
+.qr-description {
+  font-size: 15px;
+  text-align: center;
+  color: hsl(216, 15%, 48%);
+}
+@media screen and (min-width: 1440px) {
+  .qr-section {
+    max-width: 1440px;
+    padding: 230px 0;
+  }
+}
