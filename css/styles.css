@@ -29,7 +29,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   width: 288px;
-  padding: 16px 16px 40px 16px;
+  padding: 16px 16px 44px 16px;
 }
 
 .qr-card {
@@ -38,15 +38,16 @@ body {
 
 .qr-img {
   border-radius: 10px;
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 
 .qr-heading {
   font-weight: 700;
   font-size: 20px;
+  width: 256px;
   text-align: center;
   color: hsl(218, 44%, 22%);
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .qr-description {
@@ -61,5 +62,6 @@ body {
 @media screen and (min-width: 1440px) {
   .qr-section {
     max-width: 1440px;
+    padding: 230px 0;
   }
 }
