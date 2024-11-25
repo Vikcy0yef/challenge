@@ -14,7 +14,6 @@ img {
 
 body {
   font-family: "Outfit", sans-serif;
-  color: #434455;
   background-color: hsl(212, 45%, 89%);
 }
 
@@ -42,14 +41,9 @@ body {
   margin-bottom: 30px;
 }
 
-.qr-text {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
 .qr-heading {
   font-size: 22px;
+  text-align: center;
   color: hsl(218, 44%, 22%);
   margin-bottom: 25px;
 }
