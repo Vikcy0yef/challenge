@@ -21,7 +21,7 @@ body {
 .qr-section {
   width: 320px;
   margin: 0 auto;
-  padding: 158px 0;
+  padding: 148px 0;
 }
 .qr-container {
   background-color: #fff;
@@ -30,7 +30,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   width: 288px;
-  padding: 16px 16px 44px 16px;
+  padding: 16px 16px 30px 16px;
 }
 
 .qr-card {
@@ -62,6 +62,5 @@ body {
 @media screen and (min-width: 1440px) {
   .qr-section {
     max-width: 1440px;
-    padding: 230px 0;
   }
 }
